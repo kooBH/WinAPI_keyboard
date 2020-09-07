@@ -5,3 +5,8 @@ https://stackoverflow.com/questions/18001317/receiving-keypresses-while-in-backg
 Later edit: if the window is out of focus, it can't process WM_KEYDOWN messages 
 even if WM_KILLFOCUS is ignored. Therefore you need to check regularly and separately for GetAsyncKeyState().
 ```
+
+-->
+
+```GetAsyncKeyState``` for
+https://docs.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes
